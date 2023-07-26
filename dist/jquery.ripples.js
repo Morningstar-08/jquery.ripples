@@ -249,7 +249,7 @@ var Ripples = function (el, options) {
 	this.canvas = canvas;
 	this.$canvas = $(canvas);
 	this.$canvas.css({
-		position: 'absolute',
+		position: 'fixed',
 		left: 0,
 		top: 0,
 		right: 0,
