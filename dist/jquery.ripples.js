@@ -741,7 +741,7 @@ Ripples.prototype = {
 		this.originalInlineCss = inlineCss;
 
 		this.originalCssBackgroundImage = this.$el.css('backgroundImage');
-		this.$el.css('backgroundImage', 'none');
+		this.$el.css('backgroundImage', '');
 	},
 
 	restoreCssBackground: function() {
